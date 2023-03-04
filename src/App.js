@@ -1,5 +1,4 @@
 import logo from "./logo.svg";
-import Weather from "./Weather";
 import React from "react";
 import UilReact from "@iconscout/react-unicons/icons/uil-react";
 import "./App.css";
@@ -13,7 +12,6 @@ import Forecast from "./components/Forecast";
 function App() {
   return (
     <div className="mx-auto max-w-screen-md mt-7 py-5 px-32 bg-gradient-to-br from-green-400 to-blue-500 h-fit shadow-xl shadow-gray-400">
-      <Weather />
       <TopButtons />
       <Inputs />
       <TimeAndLocation />
