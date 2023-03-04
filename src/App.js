@@ -1,12 +1,9 @@
-import logo from "./logo.svg";
 import React from "react";
-import UilReact from "@iconscout/react-unicons/icons/uil-react";
 import "./App.css";
 import TopButtons from "./components/TopButtons";
 import Inputs from "./components/Inputs";
 import TimeAndLocation from "./components/TimeAndLocation";
 import TemperatureAndDetails from "./components/TemperatureAndDetails";
-import forecast from "./components/Forecast";
 import Forecast from "./components/Forecast";
 
 function App() {
