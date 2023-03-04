@@ -11,7 +11,7 @@ function TemperatureAndDetails() {
   return (
     <div>
       <div className="flex items-center justify-center py-6 text-xl text-cyan-300">
-        Snowing!
+        It's a Hot Summer!
       </div>
       <div className="flex flex-row items-center justify-between text-white py-3">
         <img
