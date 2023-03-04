@@ -16,7 +16,7 @@ function TemperatureAndDetails() {
       <div className="flex flex-row items-center justify-between text-white py-3">
         <img
           src="https://openweathermap.org/img/wn/01d@2x.png"
-          alt="weather image"
+          alt="weather sun"
           className="w-20"
         />
         <p className="text-5xl">34°</p>
