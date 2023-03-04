@@ -40,6 +40,7 @@ function TemperatureAndDetails() {
           </div>
         </div>
       </div>
+      <br />
 
       <div className="flex flex-row items-center justify-center space-x-2 text-white text-sm py-3">
         <UilSun />
