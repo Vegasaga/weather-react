@@ -1,24 +1,24 @@
 import logo from "./logo.svg";
 import Weather from "./Weather";
-
+import React from "react";
+import UilReact from "@iconscout/react-unicons/icons/uil-react";
 import "./App.css";
+import TopButtons from "./components/TopButtons";
+import Inputs from "./components/Inputs";
+import TimeAndLocation from "./components/TimeAndLocation";
+import TemperatureAndDetails from "./components/TemperatureAndDetails";
+import forecast from "./components/Forecast";
+import Forecast from "./components/Forecast";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <h2>Hello World</h2>
-        <Weather city="Paris" />
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="mx-auto max-w-screen-md mt-7 py-5 px-32 bg-gradient-to-br from-green-400 to-blue-500 h-fit shadow-xl shadow-gray-400">
+      <Weather />
+      <TopButtons />
+      <Inputs />
+      <TimeAndLocation />
+      <TemperatureAndDetails />
+      <Forecast title="Hourly Forecast" />
     </div>
   );
 }
