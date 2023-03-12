@@ -11,7 +11,7 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 function App() {
-  const [query, setQuery] = useState({ q: "paris" });
+  const [query, setQuery] = useState({ q: "las vegas", units: "metric" });
   const [units, setUnits] = useState("metric");
   const [weather, setWeather] = useState(null);
 
